@@ -108,9 +108,18 @@
 </div>
 
 <!-- Firebase -->
-<!-- ***********************************************************************************************************************
-     * TODO(DEVELOPER): Paste the initialization snippet from: Firebase Console > Overview > Add Firebase to your web app. *
-     *********************************************************************************************************************** -->
+<script src="https://www.gstatic.com/firebasejs/3.4.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyCyB5kygMIK6g2cDJxa9PdOXUOzv0i--w4",
+    authDomain: "playdate-3be54.firebaseapp.com",
+    databaseURL: "https://playdate-3be54.firebaseio.com",
+    storageBucket: "playdate-3be54.appspot.com",
+    messagingSenderId: "86784118180"
+  };
+  firebase.initializeApp(config);
+</script>
 <script src="scripts/main.js"></script>
 </body>
 </html>
